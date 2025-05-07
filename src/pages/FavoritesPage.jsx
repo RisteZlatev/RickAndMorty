@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { clearFavorites } from '../redux/actions/favoriteActions';
 import CharacterCard from '../components/CharacterCard';
-import './FavoritesPage.css'
+
 
 const FavoritesPage = () => {
   const favorites = useSelector(state => state.favorites);

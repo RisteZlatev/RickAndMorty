@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchCharacterDetails } from '../redux/actions/characterActions';
 import { addFavorite, removeFavorite } from '../redux/actions/favoriteActions';
 import Loading from '../components/Loading';
-import './DetailsPage.css';
+
 
 const DetailsPage = () => {
   const { id } = useParams();
